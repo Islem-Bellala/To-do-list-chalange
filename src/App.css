@@ -1,0 +1,55 @@
+#root {
+  width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 60%;
+  min-width: 250px;
+}
+
+hr {
+  margin-top: -25px;
+  margin-bottom: 10px;
+}
+
+input {
+  width: 98%;
+  height: 30px;
+  font-size: 18px;
+}
+
+ul {
+  width: 100%;
+  padding-left: 0;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border: 1px solid darkcyan;
+  background-color: rgb(214, 211, 225);
+  line-height: 1;
+  list-style: none;
+}
+
+p {
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.btn-delete {
+  background-color: #fff;
+  color: #000;
+}
+
+.btn-edit {
+  background-color: #fff;
+  color: #000;
+}
